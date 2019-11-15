@@ -4,6 +4,7 @@ A simple Spring Boot webapp using:
 * Github OAuth
 
 * Javadoc and JaCoCo Report: https://ucsb-cs56-f19.github.io/lab07-ganeshsankaran/
+* Heroku URL: https://cs56-f19-lab07-ganeshsankaran.herokuapp.com
 
 # Running on Localhost.
 
