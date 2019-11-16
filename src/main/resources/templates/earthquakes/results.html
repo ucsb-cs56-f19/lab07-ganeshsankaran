@@ -25,6 +25,25 @@
       <pre th:text="${json}">This is placeholder</pre>
 
       <h2> Results</h2>
+      <table>
+        <thead>
+            <tr>
+                <th>Type</th>
+                <th>Url</th>
+                <th>Count</th>
+                <th>Title</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td th:text="${featureCollection.type}"></td>
+                <td th:text="${featureCollection.metadata.url}"></td>
+                <td th:text="${featureCollection.metadata.count}"></td>
+                <td th:text="${featureCollection.metadata.title}"></td>
+
+            </tr>
+        </tbody>
+      </table>
 
       <h3>Earthquakes</h3>
       <table>
@@ -33,7 +52,6 @@
                   <th>id</th>
                   <th>place</th>
                   <th>mag</th>
-                  <th>title</th>
               </tr>
           </thead>
           <tbody>
@@ -41,7 +59,6 @@
                   <td th:text="${f.id}"></td>
                   <td th:text="${f.properties.place}"></td>
                   <td th:text="${f.properties.mag}"></td>
-                  <td th:text="${f.properties.title}"></td>
               </tr>
           </tbody>
       </table>
