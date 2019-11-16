@@ -9,10 +9,13 @@ import org.slf4j.LoggerFactory;
 
 import hello.geojson.FeatureCollection;
 
+import java.util.List;
+
 public class FeatureCollection {
     private static Logger logger = LoggerFactory.getLogger(FeatureCollection.class);
     public String type;
     public Metadata metadata;
+    public List<Feature> features;
 
     public static FeatureCollection fromJSON(String json) {
         try {
