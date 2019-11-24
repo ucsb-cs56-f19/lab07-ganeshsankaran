@@ -5,7 +5,7 @@ A simple Spring Boot webapp using:
 
 * Javadoc and JaCoCo Report: https://ucsb-cs56-f19.github.io/lab07-ganeshsankaran/
 * Heroku URL: https://cs56-f19-lab07-ganeshsankaran.herokuapp.com
-* Travis-CI Status: https://travis-ci.org/ucsb-cs56-f19/lab07-ganeshsankaran.svg?branch=master
+* Travis-CI Status: [![Build Status](https://travis-ci.org/ucsb-cs56-f19/lab07-ganeshsankaran.svg?branch=master)](https://travis-ci.org/ucsb-cs56-f19/lab07-ganeshsankaran)
 
 # Running on Localhost.
 
